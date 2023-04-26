@@ -1,6 +1,6 @@
 public class TiposVariaveis {
     public static void main(String[] args) throws Exception {
-        // Variáveis numericas
+        // Variáveis primitivas
 
         byte idade = 18; // valor máximo 127 - valor mínimo -128
         short ano = 2023; // valor máximo 32.767 - valor mínimo -32.768
@@ -12,5 +12,11 @@ public class TiposVariaveis {
         float altura = 1.75F; // Valor máximo 6 - 7 dígitos
         // Os valores do tipo float precisam terminar com F
         double salario = 2500.99; // valor máximo 15 dígitos
+
+        // Para declarar uma constante deve usar a palavra reservada "final" antes de
+        // declarar o tipo da variável
+        // As constantes devem ser escritas em CAIXA ALTA
+
+        final double VALOR_DE_PI = 3.14;
     }
 }
