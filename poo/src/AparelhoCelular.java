@@ -1,3 +1,6 @@
+import apps.Telegram;
+import apps.Whastapp;
+
 public class AparelhoCelular {
     public static void main(String[] args) {
         System.out.println("Whatsapp");

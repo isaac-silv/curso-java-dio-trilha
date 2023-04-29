@@ -1,5 +1,9 @@
+package apps;
+
 public class Telegram extends SistemaMensagens {
+
     public void enviarMensagem() {
+        verificaConexao();
         System.out.println("Enviando mensagem pelo telegram");
     };
 
